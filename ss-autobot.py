@@ -56,6 +56,7 @@ class SteamBot:
             except ElementNotInteractableException:
                 empty = True
                 print("Steam Inventory Cleared. Thank you for choosing the SS AUTOBOT.")
+                sleep(8)
 
     def sellCard(self, itemboxChecked):
         sleep(2)
@@ -79,6 +80,7 @@ class SteamBot:
                                                            "3]/div/div/div[2]")
         # Get starting value
         priceRaw = startingPrice[0].get_attribute('innerHTML')
+        print(priceRaw)
         priceRawArray = priceRaw.split(' ')
         priceRawArray2 = priceRawArray[3].split('<br>')
         price = priceRawArray2[0]
@@ -105,7 +107,7 @@ class SteamBot:
         # Click accept
         self.driver.find_element_by_xpath("//*[@id='market_sell_dialog_ok']/span") \
             .click()
-        sleep(2)
+        sleep(3)
 
 
 SteamBot(steamUser, steamPass)
