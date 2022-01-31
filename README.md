@@ -1,8 +1,7 @@
-# The SSSAW
+# Steam Seller Bot
 ***WHAT:***
-The Steam **Screen Scrapper** Automatic WebBot (what a creative title....) This application is made for the purpose of selling all your steam trading cards fast. The code is simple and easily scannable for full **transparency** regarding the use of passwords and such.
+The Steam Seller Bot is a **screen scapper** designed to sell items from your steam inventory quickly. The goal for this bot is to eliminate all the wasted time sorting through and **selling** hundreds of trading card, cases, or sprays. The bot is also made in a way such that any passwords used to access Steam are not logged or acessed in any way, allowing the user to feel safe using the application bot.
 
 ***WHAT NEXT:***
 Soon to expand to selling **CSGO cases** and **CSGO sprays**. 
-Soon to rework for easier to use **UI**.
 
