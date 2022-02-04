@@ -13,6 +13,9 @@ After that:
 3. Once the chrome tab is opened and you are told to do so via the CLI, log into your steam account and navigate to the Inventory page
 4. Sit back and let the bot work its magic!
 
+##***Bot in Action***
+[Check it out here!](https://youtu.be/IHOWTZEekFU)
+
 ## ***Coming Soon:***
 Soon to expand to selling **CSGO cases** and **CSGO sprays**. 
 
