@@ -1,5 +1,4 @@
-# path to sell at use current price of item
-# SS AUTOBOT
+# Steam Seller Bot
 # -----------------------------------------------
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
