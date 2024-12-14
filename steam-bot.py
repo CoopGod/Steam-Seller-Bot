@@ -41,14 +41,16 @@ class SteamBot:
         self.driver.find_element_by_xpath('//*[@id="inventory_link_753"]/span[3]').click()
         # Advanced Options Menu Button
         self.driver.find_element_by_xpath('//*[@id="filter_tag_show"]/span').click()
-        sleep(1)
+        sleep(2)
         # Advanced Options Menu
         self.driver.find_element_by_xpath("//*[@id='tag_filter_753_0_misc_marketable']") \
             .click()
+        show_more = self.driver.find_element_by_xpath("//div[text()='+ Show more'][2]")
+        print(show_more)
         self.driver.find_element_by_xpath("//input[@id='tag_filter_753_0_item_class_item_class_2']") \
             .click()
         # Select first card
-        self.driver.find_element_by_xpath("/html/body/div[1]/div[7]/div[2]/div[1]/div[2]/div/div[5]/div[9]/div[2]/div[1]/div[1]/div[1]/div[3]/div/a") \
+        self.driver.find_element_by_xpath("//div[contains(@class, 'itemHolder')]") \
             .click()
         sleep(2)
         # Copy starting price
